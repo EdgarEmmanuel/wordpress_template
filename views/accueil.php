@@ -108,12 +108,12 @@ $style = SRC_PUBLIC_CSS."/style.css";
     </div>
   </div>
 </div>
-<!-- ======================end section-3====================================== -->
 
 
+<!-- ======================start section-3====================================== -->
 <div class="section-3">
-  <h1>NOUS VOULONS FAIRE DE VOUS QUI VOUS ETES REELEMENT </h1>
-  <h3>TRANSFORMER TATTAGUINE AVEC VOS CAPACITES </h3>
+  <h1>AIDEZ NOUS A FAIRE DE VOUS QUI VOUS ETES REELEMENT </h1>
+  <h3>VOUS POUVEZ TRANSFORMER TATTAGUINE AVEC VOS CAPACITES </h3>
   <div class="row container">
     <div class="col-md-6">
       <img class="img-fluid" src="<?= SRC_PUBLIC_IMG.'/school.svg' ?>" alt="">
@@ -145,11 +145,72 @@ $style = SRC_PUBLIC_CSS."/style.css";
           Jeunes et femmes non diplômés sans activité et à la recherche d’opportunités
         </p>
       </div>
-      <a href="#" >S'INSCRIRE</a>   <a>PLUS D'INFORMATIONS</a>
+      <a href="https://www.cfp-getech.com/candidature/" target="_blank">S'INSCRIRE</a>  
+       <a href="https://www.cfp-getech.com/la-cible-de-nos-programmes-de-formation/" target="_blank">PLUS D'INFORMATIONS</a>
     </div>
-
   </div>
 </div>
+<!-- ======================end section-3====================================== -->
+
+
+<!-- =========================start section-4========================= -->
+
+<div class="section-4">
+  <h1>METIERS DU NUMERIQUE</h1>
+  <div class="row ">
+    <div class="col-md-2">
+      <img src="<?= SRC_PUBLIC_IMG.'/maint.png' ?>" alt="">
+      <div class="___text">
+      <p>MAINTENANCE INFORMATIQUE</p>
+          <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
+      </div>
+     
+    </div>
+    <div class="col-md-2">
+    <img src="<?= SRC_PUBLIC_IMG.'/dev-web.jpg' ?>" alt="">
+    <div class="___text">
+      <p>DEVELOPPEMENT WEB</p>
+      <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
+      </div>
+      
+    </div>
+    <div class="col-md-2">
+    <img src="<?= SRC_PUBLIC_IMG.'/comDigi.jpg' ?>" alt="">
+    <div class="___text">
+      <p>RESEAUX INFORMATIQUE</p>
+      <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
+      </div>
+     
+    </div>
+    <div class="col-md-2">
+    <img src="<?= SRC_PUBLIC_IMG.'/design.png' ?>" alt="">
+    <div class="___text">
+      <p>DESIGN</p>
+      <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
+      </div>
+     
+    </div>
+    <div class="col-md-2">
+    <img src="<?= SRC_PUBLIC_IMG.'/digital-marketing.jpg' ?>" alt="">
+    <div class="___text">
+      <p>MARKETING DIGITAL</p>
+        <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
+      </div>
+     
+    </div>
+    <div class="col-md-2">
+    <img src="<?= SRC_PUBLIC_IMG.'/comunic.jpg' ?>" alt="">
+      <div class="___text">
+      <p>COMMUNICATION DIGITALE</p>
+      <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- =====================end section-4 ========================= -->
+
 
 </main>
 
