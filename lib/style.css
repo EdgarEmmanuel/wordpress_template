@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+.navbar{
+    background:rgba(206, 131, 131, 0.4);
+    
+}
+
+.navbar .navbar-nav .nav-item  .nav-link{
+    font-weight:bold;
+    color:white;
+}
+
+.navbar .navbar-nav .nav-item a:hover{
+    color:#ed8f54;
+}
+
+.navbar .navbar-brand img{
+    width:10rem;
+}
+
+.carousel{
+    margin-top: -20rem;
+}
+
+.carousel .carousel-inner .carousel-item img{
+    width:100%;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption{
+    bottom: 0;
+    top:32rem;
+    font-weight:bold;
+    font-size:45px;
+    font-family: 'Rowdies', cursive;
+    background:rgba(59, 131, 145,0.3);
+    color:#ed8f54;
+    height:20rem;
+}
+
+/* start section-1 */
+
+main .section-1 .row .col-md-12{
+    padding: 20px 20px;
+}
+
+main .section-1 .row .col-md-12 img{
+    width:80rem;
+}
+
+main .section-1 .row .col-md-12 ._text {
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    padding-top: 30px ;
+    padding-left: 40px ;
+    padding-right: 40px;
+    background: rgba(255,255,255,0.3);
+    position:relative;
+    top:-30rem;
+    margin-left: 230px;
+    padding-bottom: 30px;
+}
+
+main .section-1 .row .col-md-12 ._text h1{
+    font-size:55px;
+    color:white;
+}
+
+main .section-1 .row .col-md-12 ._text p{
+    font-size: 40px;
+}
+
+main .section-1 .row .col-md-12 ._text button:first-of-type{
+    border: 1px solid #ed8f54;
+    background:#ed8f54;
+    color:white;
+    width:300px;
+}
+
+
+main .section-1 .row .col-md-12 ._text button:first-of-type:hover{
+    color:#ed8f54;
+    background: white;
+    border-color: white;
+}
+
+
+main .section-1 .row .col-md-12 ._text button:last-of-type{
+    border: 1px solid rgb(59, 131, 145);
+    background:rgb(59, 131, 145);
+    color:white;
+    width:300px;
+    margin-top: 20px;
+}
+
+
+main .section-1 .row .col-md-12 ._text button:last-of-type:hover{
+    color:rgb(59, 131, 145);
+    background: white;
+    border-color: white;
+}
+
+
+main .section-1 .row .col-md-12  ._text a{
+    text-decoration: none;
+    color:black;
+}
+
+/* section-1 */
