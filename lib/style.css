@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 
 .navbar{
-    background:rgba(206, 131, 131, 0.4);
+    background:rgb(0, 0, 0);
     
 }
 
@@ -106,3 +106,102 @@ main .section-1 .row .col-md-12  ._text a{
 }
 
 /* section-1 */
+
+
+/* section-2 */
+
+.section-2 {
+    margin-top: -22.8rem;
+    background: #ed8f54;
+    width:100%;
+    color:white;
+}
+
+.section-2 .row .col-md-6{
+    text-align: center;
+}
+
+.section-2 .row .col-md-6:first-of-type button{
+    border-radius: 10px;
+    border: 2px solid white;
+    background: none;
+    color:white;
+    font-family: 'Rowdies', cursive;
+}
+
+.section-2 .row .col-md-6:first-of-type button:hover{
+    background: white;
+    color:#ed8f54;
+}
+
+.section-2 .row .col-md-6:first-of-type h1{
+    font-family: 'Rowdies', cursive;
+}
+
+.section-2 .row .col-md-6:last-of-type {
+    margin-top: 20px;
+    font-family: 'Rowdies', cursive;
+}
+
+/* start section-3 */
+
+
+.section-3{
+    margin-top:80px;
+}
+
+.section-3 h1,h3{
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+}
+
+.section-3 .row .col-md-6:last-of-type{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.section-3 .row .col-md-6:last-of-type a:first-of-type{
+    border: 1px solid #ed8f54;
+    background:#ed8f54;
+    color:white;
+    padding: 10px 10px;
+    font-family: 'Rowdies', cursive;
+    cursor: pointer;
+    width: 400px;
+}
+
+
+.section-3 .row .col-md-6:last-of-type a:first-of-type:hover{
+    color:#ed8f54;
+    background: white;
+    border-color: white;
+}
+
+.section-3 .row .col-md-6:last-of-type a:last-of-type{
+    border: 1px solid rgb(59, 131, 145);
+    background:rgb(59, 131, 145);
+    color:white;
+    padding: 10px 10px;
+    cursor: pointer;
+    width:400px;
+    font-family: 'Rowdies', cursive;
+}
+
+
+.section-3 .row .col-md-6:last-of-type a:last-of-type:hover{
+    color:rgb(59, 131, 145);
+    background: white;
+    border-color: white;
+}
+
+.section-3 .row .col-md-6:last-of-type .__textCible{
+    padding-top: 60px;
+    font-family: 'Rowdies', cursive;
+    height:20rem;
+    width:40rem;
+}
+
+
+.section-3 .row .col-md-6:last-of-type .__textCible p{
+    float: left;
+}

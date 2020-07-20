@@ -93,14 +93,63 @@ $style = SRC_PUBLIC_CSS."/style.css";
 <!-- ========================start section-2=================================== -->
 
 <div class="section-2">
-  <div class="row">
-    <div class="col-md-12">
-        
+  <div class="row container">
+    <div class="col-md-6">
+      <h1>DEVENIR PARTENAIRE ?</h1>
+      <button>CONTACT US</button>
+      </div>
+    <div class="col-md-6">
+      <p>
+      <i class="fa fa-phone" aria-hidden="true"></i> (+221) 77 041 93 61
+      </p>
+      <p>
+      <i class="fa fa-envelope-o" aria-hidden="true"></i> cfp.getech@gmail.com
+      </p>
     </div>
   </div>
 </div>
-
 <!-- ======================end section-3====================================== -->
+
+
+<div class="section-3">
+  <h1>NOUS VOULONS FAIRE DE VOUS QUI VOUS ETES REELEMENT </h1>
+  <h3>TRANSFORMER TATTAGUINE AVEC VOS CAPACITES </h3>
+  <div class="row container">
+    <div class="col-md-6">
+      <img class="img-fluid" src="<?= SRC_PUBLIC_IMG.'/school.svg' ?>" alt="">
+    </div>
+    <div class="col-md-6">
+      <div class="__textCible">
+        <p>
+          <i class="fa fa-bullseye" aria-hidden="true"></i>
+          Collégiens, Lycéens, étudiants
+        </p>
+        <p>
+          <i class="fa fa-bullseye" aria-hidden="true"></i>
+          Jeunes et femmes diplômés au chômage ou à la recherche d’opportunités 
+        </p>
+        <p>
+          <i class="fa fa-bullseye" aria-hidden="true"></i>
+          Collectivités locales
+        </p> <br/>
+        <p>
+          <i class="fa fa-bullseye" aria-hidden="true"></i>
+          Entreprises, écoles, hôpitaux ,  PME et PMI 
+        </p>
+        <p>
+          <i class="fa fa-bullseye" aria-hidden="true"></i>
+          Porteurs de projet et entrepreneurs
+        </p>
+        <p>
+          <i class="fa fa-bullseye" aria-hidden="true"></i>
+          Jeunes et femmes non diplômés sans activité et à la recherche d’opportunités
+        </p>
+      </div>
+      <a href="#" >S'INSCRIRE</a>   <a>PLUS D'INFORMATIONS</a>
+    </div>
+
+  </div>
+</div>
 
 </main>
 
