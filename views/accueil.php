@@ -153,6 +153,33 @@ $style = SRC_PUBLIC_CSS."/style.css";
 <!-- ======================end section-3====================================== -->
 
 
+
+<!-- =======================section-5========================== -->
+
+<div class="section-5">
+  <div class="row container">
+    <div class="col-md-6">
+      <img src="<?= SRC_PUBLIC_IMG.'/enfant.jpg' ?>" alt="">
+    </div>
+    <div class="col-md-6">
+      <h1>POURQUOI NOUS AVONS BESOIN DE VOUS ?</h1>
+    <p>
+    Le numérique, aujourd’hui, est un moteur d’employabilité pour les jeunes dans un secteur en pleine expansion. Cela passe entre autre par des parcours d’accompagnement bien structurés, la consolidation des acquis et la validation des compétences. 
+
+Notre projet à pour but la mise en place d’un centre de formation pour les populations de la localité et un centre d’incubation pour les jeunes et les femmes porteurs de projet et  contribuer ainsi au de développement de la région de Fatick.
+    
+    </p>
+    <a href="https://www.cfp-getech.com/contexte/" target="_blank">LIRE PLUS</a>
+   </div>
+  </div>
+
+</div>
+
+
+
+<!-- =====================end section-5========================== -->
+
+
 <!-- =========================start section-4========================= -->
 
 <div class="section-4">
@@ -162,7 +189,7 @@ $style = SRC_PUBLIC_CSS."/style.css";
       <img src="<?= SRC_PUBLIC_IMG.'/maint.png' ?>" alt="">
       <div class="___text">
       <p>MAINTENANCE INFORMATIQUE</p>
-          <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
+          <a href="https://www.cfp-getech.com/un-centre-quatre-departements/" target="_blank">VOIR PLUS</a>
       </div>
      
     </div>
@@ -170,7 +197,7 @@ $style = SRC_PUBLIC_CSS."/style.css";
     <img src="<?= SRC_PUBLIC_IMG.'/dev-web.jpg' ?>" alt="">
     <div class="___text">
       <p>DEVELOPPEMENT WEB</p>
-      <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
+      <a href="https://www.cfp-getech.com/un-centre-quatre-departements/" target="_blank">VOIR PLUS</a>
       </div>
       
     </div>
@@ -178,7 +205,7 @@ $style = SRC_PUBLIC_CSS."/style.css";
     <img src="<?= SRC_PUBLIC_IMG.'/comDigi.jpg' ?>" alt="">
     <div class="___text">
       <p>RESEAUX INFORMATIQUE</p>
-      <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
+      <a href="https://www.cfp-getech.com/un-centre-quatre-departements/" target="_blank">VOIR PLUS</a>
       </div>
      
     </div>
@@ -210,6 +237,10 @@ $style = SRC_PUBLIC_CSS."/style.css";
 </div>
 
 <!-- =====================end section-4 ========================= -->
+
+
+
+
 
 
 </main>
