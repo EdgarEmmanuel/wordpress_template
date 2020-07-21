@@ -71,43 +71,7 @@ $style = SRC_PUBLIC_CSS."/style.css";
 
 
 <main>
-    <!-- ==================================section-1===================================== -->
-
-        <div class="section-1">
-          <div class="row container">
-            <div class="col-md-12">
-              <img src="<?= SRC_PUBLIC_IMG.'/hands.jpeg' ?>" alt=""/>
-              <div class="_text">
-              <h1>PARTENAIRES</h1>
-              <p>Pensez une fois, pensez deux fois, pensez Solidarite.</p>
-              <a href="">En savoir plus</a> <br>
-              <button>DEVENIR PARTENAIRE</button> <button>FAIRE UN DON</button>
-            </div>
-            </div>
-          
-          </div>
-        </div>
-
-<!-- ==============================end section-1================================= -->
-
-<!-- ========================start section-2=================================== -->
-
-<div class="section-2">
-  <div class="row container">
-    <div class="col-md-6">
-      <h1>DEVENIR PARTENAIRE ?</h1>
-      <button>CONTACT US</button>
-      </div>
-    <div class="col-md-6">
-      <p>
-      <i class="fa fa-phone" aria-hidden="true"></i> (+221) 77 041 93 61
-      </p>
-      <p>
-      <i class="fa fa-envelope-o" aria-hidden="true"></i> cfp.getech@gmail.com
-      </p>
-    </div>
-  </div>
-</div>
+    
 
 
 <!-- ======================start section-3====================================== -->
@@ -237,6 +201,106 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
 </div>
 
 <!-- =====================end section-4 ========================= -->
+
+
+<!-- ==================================section-1===================================== -->
+
+<div class="section-1">
+          <div class="row container">
+            <div class="col-md-12">
+              <img src="<?= SRC_PUBLIC_IMG.'/hands.jpeg' ?>" alt=""/>
+              <div class="_text">
+              <h1>PARTENAIRES</h1>
+              <p>Pensez une fois, pensez deux fois, pensez Solidarite.</p>
+              <a href="">En savoir plus</a> <br>
+              <button>DEVENIR PARTENAIRE</button> <button>FAIRE UN DON</button>
+            </div>
+            </div>
+          
+          </div>
+        </div>
+
+<!-- ==============================end section-1================================= -->
+
+
+<!-- ========================start section-2=================================== -->
+
+<div class="section-2">
+  <div class="row container">
+    <div class="col-md-6">
+      <h1>DEVENIR PARTENAIRE ?</h1>
+      <button>CONTACT US</button>
+      </div>
+    <div class="col-md-6">
+      <p>
+      <i class="fa fa-phone" aria-hidden="true"></i> (+221) 77 041 93 61
+      </p>
+      <p>
+      <i class="fa fa-envelope-o" aria-hidden="true"></i> cfp.getech@gmail.com
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ==================end section-2============================== -->
+
+
+<!-- ==============================start section-6=================== -->
+<div class="section-6">
+  <h1>VOUS AVEZ UN ROLE A <br/> JOUER</h1>
+  <span></span>
+  <h3>ENSEMBLE NOUS POUVONS CONSTRUIRE UN TATTAGUINE FIER ET SE DEVELOPPANT AVEC SES FILS ET SES FILLES </h3>
+
+  <div class="__row">
+    <div class="__col-md-1">
+      <p>
+      bénéficier de programmes de formation en phase avec la demande sur le marché du travail
+      </p>
+    </div>
+    <div  class="__col-md-1">
+      <p>
+      avoir une qualification dans les métiers du numérique
+      </p>
+    </div>
+    <div  class="__col-md-1">
+      <p>
+      entrer dans la vie active par l’intermédiaire des entreprises partenaires et des autorités locales
+      </p>
+    </div>
+    <div  class="__col-md-1">
+      <p>
+      accompagner les porteurs de projet 
+      </p>
+    </div>
+    <div  class="__col-md-1">
+      <p>
+      inciter les jeunes et femmes à l’entrepreneuriat
+      </p>
+    </div>
+    <div  class="__col-md-1">
+      <p>
+      Etre des partenaires pour l’appui à l’éducation
+       de base des jeunes et des adultes et au développement des compétences professionnelles.
+      </p>
+    </div>
+    <div  class="__col-md-1">
+      <p>
+      assister les autorités locales dans la mise en place de programmes de formation
+      </p>
+    </div>
+    <div  class="__col-md-1">
+      <p>
+      impliquer la population dans les programmes de formation menés par les autorités locales
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ==============================end section-6==================== -->
+
+
+
 
 
 

@@ -309,3 +309,42 @@ main .section-1 .row .col-md-12  ._text a{
     background: white;
     border-color: white;
 }
+
+
+/* start of section-6 */
+
+.section-6{
+    text-align:center;
+    margin-top: 100px;
+}
+
+.section-6 h1{
+    font-size:56px;
+    font-family: 'Rowdies', cursive;
+}
+
+.section-6 h3{
+    font-size: 24px;
+}
+
+.section-6 .__row{
+    margin-top:40px;
+    align-items: center;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.section-6 .__row .__col-md-1{
+    margin: 0px 20px;
+    padding: 20px 20px;
+    text-align: left;
+    flex-basis: 10%;
+}
+
+.section-6 .__row .__col-md-1 p{
+    font-family: 'Rowdies', cursive;
+    width:26px;
+    text-transform: uppercase;
+    font-size:13px;
+    color:rgb(59, 131, 145);
+}
