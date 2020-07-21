@@ -22,10 +22,10 @@ $style = SRC_PUBLIC_CSS."/style.css";
               <a class="nav-link" href="#">MISSION <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">QUI SOMMES NOUS ? </a>
+              <a class="nav-link" href="#">PROGRAMME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FORMATION</a>
+              <a class="nav-link" href="#">PARTENAIRES</a>
             </li>
           </ul>
         </div>
@@ -247,9 +247,9 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
 
 <!-- ==============================start section-6=================== -->
 <div class="section-6">
-  <h1>VOUS AVEZ UN ROLE A <br/> JOUER</h1>
+  <h1>VOUS AVEZ UN ROLE A JOUER</h1>
   <span></span>
-  <h3>ENSEMBLE NOUS POUVONS CONSTRUIRE UN TATTAGUINE FIER ET SE DEVELOPPANT AVEC SES FILS ET SES FILLES </h3>
+  <h3>ENSEMBLE NOUS POUVONS CONSTRUIRE UN TATTAGUINE <br/> FIER ET SE DEVELOPPANT AVEC SES FILS ET SES FILLES </h3>
 
   <div class="__row container">
     <div class="__col-md-1">
@@ -306,8 +306,46 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
 
 
 
+<section class="section-10 container-fluid p-0">
+        <div class="cover">
+            <div class="content text-center">
+                <h1>POURQUOI NOUS CROYONS EN CE PROJET </h1>
+                <p>LES STATISTIQUES NOUS ENCOURAGENT </p>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <div class="numbers d-flex flex flex-md-row flex-wrap justify-content-center">
+                 <div class="rect">
+                        <h1>2345</h1>
+                        <p>happy Client </p>
+                 </div>
+                 <div class="rect">
+                     <h1>1245</h1>
+                     <p>Cups of tea </p>
+                </div>
+                <div class="rect">
+                     <h1>1056</h1>
+                     <p>infrastructures</p>
+                </div>
+                <div class="rect">
+                     <h1>9152</h1>
+                     <p>total projects </p>
+                </div>
+            </div>
+        </div>
+</section>
 
 
+<!-- =============================end section-10============================ -->
+
+
+  
+
+
+<!--==============================start fixed app==========================-->
+
+
+<!-- end fixed app-->
 
 
 
