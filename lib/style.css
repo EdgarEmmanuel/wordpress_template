@@ -421,3 +421,18 @@ main .section-1 .row .col-md-12  ._text a{
     font-family: 'Poppins', sans-serif;
     font-weight:bold;
 }
+
+
+/* section-11 */
+
+.section-11 .row{
+    position:fixed;
+    margin-top: -400rem;
+    z-index:5;
+}
+
+
+.section-11 .row .col-md-12 p img{
+    width:2rem;
+}
+

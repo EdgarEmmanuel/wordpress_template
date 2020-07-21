@@ -339,7 +339,24 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
 <!-- =============================end section-10============================ -->
 
 
-  
+  <div class="section-11">
+    <div class="row ">
+      <div class="col-md-12">
+        <p>
+          <img src="<?= SRC_PUBLIC_ICONS.'/facebook.svg'?>" alt=""/>
+        </p>
+        <p>
+        <img src="<?= SRC_PUBLIC_ICONS.'/insta.svg'?>" alt=""/>
+      </p>
+        <p>
+        <img src="<?= SRC_PUBLIC_ICONS.'/linkedin.svg'?>" alt=""/>
+       </p>
+        <p>
+        <img src="<?= SRC_PUBLIC_ICONS.'/twitter.svg'?>" alt=""/>
+        </p>
+      </div>
+    </div>
+  </div>
 
 
 <!--==============================start fixed app==========================-->

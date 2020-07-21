@@ -5,6 +5,7 @@ define("WEBROOT",str_replace("index.php","",$_SERVER['SCRIPT_NAME']));
 define("SRC_PUBLIC_CSS",WEBROOT."lib");
 define("SRC_PUBLIC_JS",WEBROOT."lib_js");
 define("SRC_PUBLIC_IMG",WEBROOT."img");
+define("SRC_PUBLIC_ICONS",WEBROOT."icons");
 
 // POUR DOSSIER controllers , views and Models.
 define("ROOT",str_replace("index.php","",$_SERVER['SCRIPT_FILENAME']));
