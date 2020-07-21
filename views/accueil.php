@@ -251,7 +251,7 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
   <span></span>
   <h3>ENSEMBLE NOUS POUVONS CONSTRUIRE UN TATTAGUINE FIER ET SE DEVELOPPANT AVEC SES FILS ET SES FILLES </h3>
 
-  <div class="__row">
+  <div class="__row container">
     <div class="__col-md-1">
       <p>
       bénéficier de programmes de formation en phase avec la demande sur le marché du travail
@@ -272,7 +272,12 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
       accompagner les porteurs de projet 
       </p>
     </div>
-    <div  class="__col-md-1">
+  </div>
+</div>
+
+<div class="section-6">
+    <div class="__row container">
+  <div  class="__col-md-1">
       <p>
       inciter les jeunes et femmes à l’entrepreneuriat
       </p>
