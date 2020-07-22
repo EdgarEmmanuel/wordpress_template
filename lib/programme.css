@@ -15,6 +15,7 @@
     border:1px solid white;
     margin-bottom: 12px;
     border-radius:10px;
+    font-family: 'Rowdies', cursive;
 }
 
 .project-area .container .button-group button:focus{
@@ -102,4 +103,34 @@
     border-color: white;
 }
 
+
+
+
 /* start section-5 */
+
+.section-5 .row  {
+    margin: auto;
+}
+
+.section-5 .row .col-md-12 img{
+    width:65rem;
+    border-radius: 10px;
+}
+
+.section-5 .row .col-md-12 .__textSec4 h1{
+    color:rgb(59, 131, 145);
+}
+
+.section-5 .row .col-md-12 .__textSec4 p{
+    color:#ed8f54;
+}
+
+.section-5 .row .col-md-12 .__textSec4{
+    position:relative;
+    top:-20rem;
+    background: rgba(255,255,255,0.9);
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+}
+
+/* end section-5 */

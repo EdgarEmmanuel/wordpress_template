@@ -152,7 +152,7 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
       </div>
     </div>
   </div>
-  <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
+  <a href="index.php?prog=yes">VOIR PLUS</a>
 </div>
 
 <!-- =====================end section-4 ========================= -->
@@ -205,26 +205,26 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
   <h1>VOUS AVEZ UN ROLE A JOUER</h1>
   <span></span>
   <h3>ENSEMBLE NOUS POUVONS CONSTRUIRE UN TATTAGUINE <br/> FIER ET SE DEVELOPPANT AVEC SES FILS ET SES FILLES </h3>
-
+  <h6>ENJEUX DE NOTRE PROJET</h6>
   <div class="__row container">
     <div class="__col-md-1">
       <p>
-      bénéficier de programmes de formation en phase avec la demande sur le marché du travail
+      Fournir des programmes de formation en phase avec la demande sur le marché du travail
       </p>
     </div>
     <div  class="__col-md-1">
       <p>
-      avoir une qualification dans les métiers du numérique
+      Aider les membres a avoir une qualification dans les métiers du numérique
       </p>
     </div>
     <div  class="__col-md-1">
       <p>
-      entrer dans la vie active par l’intermédiaire des entreprises partenaires et des autorités locales
+      Aider les membres a entrer dans la vie active par l’intermédiaire des entreprises partenaires et des autorités locales
       </p>
     </div>
     <div  class="__col-md-1">
       <p>
-      accompagner les porteurs de projet 
+      Nous voulons accompagner les porteurs de projet 
       </p>
     </div>
   </div>
@@ -234,7 +234,7 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
     <div class="__row container">
   <div  class="__col-md-1">
       <p>
-      inciter les jeunes et femmes à l’entrepreneuriat
+      Inciter les jeunes et femmes à l’entrepreneuriat
       </p>
     </div>
     <div  class="__col-md-1">
@@ -245,12 +245,12 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
     </div>
     <div  class="__col-md-1">
       <p>
-      assister les autorités locales dans la mise en place de programmes de formation
+      Assister les autorités locales dans la mise en place de programmes de formation
       </p>
     </div>
     <div  class="__col-md-1">
       <p>
-      impliquer la population dans les programmes de formation menés par les autorités locales
+      Impliquer la population dans les programmes de formation menés par les autorités locales
       </p>
     </div>
   </div>
@@ -296,19 +296,32 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
 
   <div class="section-11">
     <div class="row container">
-      <div class="col-md-12">
+      <div class="col-md-3">
         <p>
-          <img src="<?= SRC_PUBLIC_ICONS.'/facebook.svg'?>" alt=""/>
+          <img src="<?= SRC_PUBLIC_ICONS.'/facebook.svg'?>" alt="facebook"/>
         </p>
-        <p>
-        <img src="<?= SRC_PUBLIC_ICONS.'/insta.svg'?>" alt=""/>
+      </div>
+
+      <div class="col-md-3">
+      <p>
+        <img src="<?= SRC_PUBLIC_ICONS.'/insta.svg'?>" alt="insta"/>
       </p>
-        <p>
-        <img src="<?= SRC_PUBLIC_ICONS.'/linkedin.svg'?>" alt=""/>
+      </div>
+
+      <div class="col-md-3">
+      <p>
+        <img src="<?= SRC_PUBLIC_ICONS.'/linkedin.svg'?>" alt="linkedin"/>
        </p>
-        <p>
-        <img src="<?= SRC_PUBLIC_ICONS.'/twitter.svg'?>" alt=""/>
+      </div>
+
+      <div class="col-md-3">
+      <p>
+        <img src="<?= SRC_PUBLIC_ICONS.'/twitter.svg'?>" alt="twitter"/>
         </p>
+      </div>
+       
+       
+       
       </div>
     </div>
   </div>

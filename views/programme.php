@@ -75,6 +75,66 @@ $script = SRC_PUBLIC_JS."/style_page_programme.js";
 
 
 
+
+<!-- ==========================tertiaire part =========================== -->
+<div class="section-5">
+  <div class="row container">
+    <div class="col-md-12">
+      <img src="<?= SRC_PUBLIC_DEP.'/tertiaire.jpg' ?>" alt=""/>
+      <div class="__textSec4">
+      <h1>METIERS DU TERTIAIRE</h1>
+      <p>PLUS D'INFORMATIONS BIENTOT</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ======================end tertiaire part =========================== -->
+
+
+
+
+
+
+
+<!-- ===========================start gestion part========================== -->
+
+
+<div class="section-5">
+  <div class="row container">
+    <div class="col-md-12">
+      <img src="<?= SRC_PUBLIC_DEP.'/gestion.jpg' ?>" alt=""/>
+      <div class="__textSec4">
+      <h1>METIERS DE L'ENTREPEUNARIAT ET DE LA GESTION</h1>
+      <p>PLUS D'INFORMATIONS BIENTOT</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- =========================end gestion part ================ -->
+
+
+
+
+<!-- ===========================start industrie part========================== -->
+
+
+<div class="section-5">
+  <div class="row container">
+    <div class="col-md-12">
+      <img src="<?= SRC_PUBLIC_DEP.'/indus.jpg' ?>" alt=""/>
+      <div class="__textSec4">
+      <h1>METIERS DE l'INDUSTRIE </h1>
+      <p>PLUS D'INFORMATIONS BIENTOT</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<!-- =========================end industrie part ================ -->
+
+
+
 <!-- =======================start project part===================== -->
 
 <div class="project-area">
