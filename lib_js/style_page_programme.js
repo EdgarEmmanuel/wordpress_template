@@ -38,7 +38,7 @@ BTNPopular.addEventListener("click",(e)=>{
     }
 });
 
-
+ 
 // =================for latest projects only 
 let btnlatest = document.querySelector('.project-area .container .button-group #latest');
 btnlatest.addEventListener('click',(e)=>{

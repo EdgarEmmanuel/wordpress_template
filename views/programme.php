@@ -95,8 +95,19 @@ $script = SRC_PUBLIC_JS."/style_page_programme.js";
         <div class="col-lg-4 col-md-6 col-12 element-item latest">
           <div class="our-project">
             <div class="img">
-              <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>>" class="test-popup-link">
-                <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+              <a href="<?= SRC_PUBLIC_DEP.'/tertiaire.jpg' ?>" class="test-popup-link">
+                <img src="<?= SRC_PUBLIC_DEP.'/tertiaire.jpg' ?>" alt="">
+              </a>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 element-item latest">
+          <div class="our-project">
+            <div class="img">
+              <a href="<?= SRC_PUBLIC_DEP.'/first.jpg' ?>" class="test-popup-link">
+                <img src="<?= SRC_PUBLIC_DEP.'/first.jpg' ?>" alt="">
               </a>
               
             </div>
@@ -106,8 +117,8 @@ $script = SRC_PUBLIC_JS."/style_page_programme.js";
         <div class="col-lg-4 col-md-6 col-12 element-item popular">
           <div class="our-project">
             <div class="img">
-              <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" class="test-popup-link">
-                <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+              <a href="<?= SRC_PUBLIC_DEP.'/num.jpeg' ?>" class="test-popup-link">
+                <img src="<?= SRC_PUBLIC_DEP.'/num.jpeg' ?>" alt="">
               </a>
             </div>
           </div>
@@ -116,8 +127,8 @@ $script = SRC_PUBLIC_JS."/style_page_programme.js";
         <div class="col-lg-4 col-md-6 col-12 element-item popular">
           <div class="our-project">
             <div class="img">
-              <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" class="test-popup-link">
-                <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+              <a href="<?= SRC_PUBLIC_DEP.'/preu.jpg' ?>" class="test-popup-link">
+                <img src="<?= SRC_PUBLIC_DEP.'/preu.jpg' ?>" alt="">
               </a>
             </div>
           </div>
@@ -127,8 +138,8 @@ $script = SRC_PUBLIC_JS."/style_page_programme.js";
         <div class="col-lg-4 col-md-6 col-12 element-item following">
           <div class="our-project">
             <div class="img">
-              <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" class="test-popup-link">
-                <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+              <a href="<?= SRC_PUBLIC_DEP.'/num.jpeg' ?>" class="test-popup-link">
+                <img src="<?= SRC_PUBLIC_DEP.'/num.jpeg' ?>" alt=""/>
               </a>
             </div>
           </div>
@@ -137,8 +148,8 @@ $script = SRC_PUBLIC_JS."/style_page_programme.js";
         <div class="col-lg-4 col-md-6 col-12 element-item following">
           <div class="our-project">
             <div class="img">
-            <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" class="test-popup-link">
-              <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+            <a href="<?= SRC_PUBLIC_DEP.'/indus.jpg' ?>" class="test-popup-link">
+              <img src="<?= SRC_PUBLIC_DEP.'/indus.jpg' ?>" alt=""/>
             </a>
             </div>
           
@@ -148,8 +159,8 @@ $script = SRC_PUBLIC_JS."/style_page_programme.js";
         <div class="col-lg-4 col-md-6 col-12 element-item upcoming">
           <div class="our-project">
             <div class="img">
-              <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" class="test-popup-link">
-                <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+              <a href="<?= SRC_PUBLIC_DEP.'/indus.jpg' ?>" class="test-popup-link">
+                <img src="<?= SRC_PUBLIC_DEP.'/indus.jpg' ?>" alt=""/>
               </a>
             </div>
           </div>
@@ -159,8 +170,8 @@ $script = SRC_PUBLIC_JS."/style_page_programme.js";
         <div class="col-lg-4 col-md-6 col-12 element-item upcoming">
           <div class="our-project">
             <div class="img">
-              <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" class="test-popup-link">
-                <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+              <a href="<?= SRC_PUBLIC_DEP.'/industrie.jpg' ?>" class="test-popup-link">
+                <img src="<?= SRC_PUBLIC_DEP.'/industrie.jpg' ?>" alt=""/>
               </a>
             </div>
           </div>

@@ -127,7 +127,7 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
   <h1>NOS FORMATIONS</h1>
   <div class="row ">
     <div class="col-md-3">
-      <img src="<?= SRC_PUBLIC_IMG.'/maint.png' ?>" alt="">
+      <img src="<?= SRC_PUBLIC_DEP.'/tertiaire.jpg' ?>" alt="">
       <div class="___text">
       <p>METIERS DU TERTIAIRE</p>
       </div>
@@ -139,7 +139,7 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
       </div>
     </div>
     <div class="col-md-3">
-    <img src="<?= SRC_PUBLIC_IMG.'/comDigi.jpg' ?>" alt="">
+    <img src="<?= SRC_PUBLIC_DEP.'/industrie.jpg' ?>" alt="">
     <div class="___text">
       <p>METIERS DE L'INDUSTRIE</p>
       </div>
