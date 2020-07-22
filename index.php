@@ -14,7 +14,10 @@ define("SRC_CONTROLLERS",ROOT."controllers");
 define("SRC_MODELS",ROOT."models"); 
 
 
-
-include_once(SRC_VIEWS."/accueil.php");
+if(isset($_GET["prog"])){
+    include_once(SRC_VIEWS."/programme.php");
+}else{
+    include_once(SRC_VIEWS."/accueil.php");
+}
 
 ?>

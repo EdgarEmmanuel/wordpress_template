@@ -7,29 +7,6 @@ $style = SRC_PUBLIC_CSS."/style.css";
 
 
 
-<!-- the navbar -->
-<nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""/></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="m-auto">
-
-            </div>
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">MISSION <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">PROGRAMME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">PARTENAIRES</a>
-            </li>
-          </ul>
-        </div>
-</nav>
 
 <!-- the carousel -->
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -147,57 +124,35 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
 <!-- =========================start section-4========================= -->
 
 <div class="section-4">
-  <h1>METIERS DU NUMERIQUE</h1>
+  <h1>NOS FORMATIONS</h1>
   <div class="row ">
-    <div class="col-md-2">
+    <div class="col-md-3">
       <img src="<?= SRC_PUBLIC_IMG.'/maint.png' ?>" alt="">
       <div class="___text">
-      <p>MAINTENANCE INFORMATIQUE</p>
-          <a href="https://www.cfp-getech.com/un-centre-quatre-departements/" target="_blank">VOIR PLUS</a>
+      <p>METIERS DU TERTIAIRE</p>
       </div>
-     
     </div>
-    <div class="col-md-2">
+    <div class="col-md-3">
     <img src="<?= SRC_PUBLIC_IMG.'/dev-web.jpg' ?>" alt="">
     <div class="___text">
-      <p>DEVELOPPEMENT WEB</p>
-      <a href="https://www.cfp-getech.com/un-centre-quatre-departements/" target="_blank">VOIR PLUS</a>
+      <p>METIERS DU NUMERIQUE</p>
       </div>
-      
     </div>
-    <div class="col-md-2">
+    <div class="col-md-3">
     <img src="<?= SRC_PUBLIC_IMG.'/comDigi.jpg' ?>" alt="">
     <div class="___text">
-      <p>RESEAUX INFORMATIQUE</p>
-      <a href="https://www.cfp-getech.com/un-centre-quatre-departements/" target="_blank">VOIR PLUS</a>
+      <p>METIERS DE L'INDUSTRIE</p>
       </div>
      
     </div>
-    <div class="col-md-2">
+    <div class="col-md-3">
     <img src="<?= SRC_PUBLIC_IMG.'/design.png' ?>" alt="">
     <div class="___text">
-      <p>DESIGN</p>
-      <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
+      <p>METIERS DE LA GESTION</p>
       </div>
-     
-    </div>
-    <div class="col-md-2">
-    <img src="<?= SRC_PUBLIC_IMG.'/digital-marketing.jpg' ?>" alt="">
-    <div class="___text">
-      <p>MARKETING DIGITAL</p>
-        <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
-      </div>
-     
-    </div>
-    <div class="col-md-2">
-    <img src="<?= SRC_PUBLIC_IMG.'/comunic.jpg' ?>" alt="">
-      <div class="___text">
-      <p>COMMUNICATION DIGITALE</p>
-      <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
-      </div>
-      
     </div>
   </div>
+  <a href="https://www.cfp-getech.com/un-centre-quatre-departements/">VOIR PLUS</a>
 </div>
 
 <!-- =====================end section-4 ========================= -->
@@ -316,20 +271,20 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
         <div class="container-fluid text-center">
             <div class="numbers d-flex flex flex-md-row flex-wrap justify-content-center">
                  <div class="rect">
-                        <h1>2345</h1>
-                        <p>happy Client </p>
+                        <h1>36%</h1>
+                        <p>taux d'activite</p>
                  </div>
                  <div class="rect">
-                     <h1>1245</h1>
-                     <p>Cups of tea </p>
+                     <h1>28,5%</h1>
+                     <p>taux de chomage </p>
                 </div>
                 <div class="rect">
-                     <h1>1056</h1>
-                     <p>infrastructures</p>
+                     <h1>40,9%</h1>
+                     <p>secteur informel</p>
                 </div>
                 <div class="rect">
-                     <h1>9152</h1>
-                     <p>total projects </p>
+                     <h1>67,3%</h1>
+                     <p>secteur formel</p>
                 </div>
             </div>
         </div>
@@ -340,7 +295,7 @@ Notre projet à pour but la mise en place d’un centre de formation pour les po
 
 
   <div class="section-11">
-    <div class="row ">
+    <div class="row container">
       <div class="col-md-12">
         <p>
           <img src="<?= SRC_PUBLIC_ICONS.'/facebook.svg'?>" alt=""/>

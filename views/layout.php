@@ -10,8 +10,58 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?= $style ?>">
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+
+.navbar{
+    background:#ed8f54;
+}
+
+.navbar .navbar-nav .nav-item  .nav-link{
+    font-weight:bold;
+    color:white;
+    font-family: 'Crimson Text', serif;
+}
+
+.navbar .navbar-nav .nav-item a:hover{
+    color:rgba(59, 131, 145,1);
+}
+
+.navbar .navbar-brand img{
+    width:10rem;
+}
+    
+    
+    </style>
 </head>
 <body >
+
+
+
+<!-- the navbar -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt=""/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="m-auto">
+
+            </div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">MISSION <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.php?prog=yes">PROGRAMME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PARTENAIRES</a>
+            </li>
+          </ul>
+        </div>
+</nav>
     
       <?php if(!empty($content)) echo $content; ?>
 
