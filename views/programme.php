@@ -1,16 +1,19 @@
-<?php 
+<?php ob_start();
 
 $title="PROGRAMME | CFP-GETECH";
 
 
 $style = SRC_PUBLIC_CSS."/programme.css";
 
-
+$script = SRC_PUBLIC_JS."/style_page_programme.js";
 ?>
 
+
+
+
+
+
 <!-- =====================numerique part======================= -->
-
-
 
 <div class="section-4">
   <h1>METIERS DU NUMERIQUE</h1>
@@ -66,9 +69,114 @@ $style = SRC_PUBLIC_CSS."/programme.css";
   </div>
 </div>
 
-
-
 <!-- =====================end numerique part===================== -->
+
+
+
+
+
+<!-- =======================start project part===================== -->
+
+<div class="project-area">
+    <div class="container">
+      <div class="project-title">
+      </div>
+
+      <div class="button-group">
+        <button  type="button" id="all" >All</button>
+        <button  type="button" id="popular"  >NUMERIQUE</button>
+        <button  type="button" id="latest"  >TERTIAIRE</button>
+        <button  type="button" id="follow">GESTION</button>
+        <button type="button" id="upcom">INDUSTRIE</button> 
+      </div>
+
+      <div class="row grid">
+
+        <div class="col-lg-4 col-md-6 col-12 element-item latest">
+          <div class="our-project">
+            <div class="img">
+              <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>>" class="test-popup-link">
+                <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+              </a>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 element-item popular">
+          <div class="our-project">
+            <div class="img">
+              <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" class="test-popup-link">
+                <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 element-item popular">
+          <div class="our-project">
+            <div class="img">
+              <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" class="test-popup-link">
+                <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-12 element-item following">
+          <div class="our-project">
+            <div class="img">
+              <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" class="test-popup-link">
+                <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 element-item following">
+          <div class="our-project">
+            <div class="img">
+            <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" class="test-popup-link">
+              <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+            </a>
+            </div>
+          
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 element-item upcoming">
+          <div class="our-project">
+            <div class="img">
+              <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" class="test-popup-link">
+                <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-12 element-item upcoming">
+          <div class="our-project">
+            <div class="img">
+              <a href="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" class="test-popup-link">
+                <img src="<?= SRC_PUBLIC_IMG.'/logo.png' ?>" alt="">
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+
+       
+      </div>
+    </div>
+</div>
+
+
+
+
+<!-- =======================end project part===================== -->
 
 <?php 
 

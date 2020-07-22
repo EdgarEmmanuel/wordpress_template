@@ -3,6 +3,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
+/* start images area */
+
+
+.project-area{
+    padding:4rem 0;
+}
+
+.project-area .container .button-group button{
+    background:transparent;
+    border:1px solid white;
+    margin-bottom: 12px;
+    border-radius:10px;
+}
+
+.project-area .container .button-group button:focus{
+    outline:0px;
+}
+
+.project-area .container .button-group button + button{
+    padding:3rem;
+}
+
+.project-area .container .row .col-lg-4 .our-project .title h4{
+    font-family: 'Rowdies', cursive;
+}
+
+.project-area .container .row .col-lg-4 .our-project .img img{
+    width:20rem;
+}
+
+.project-area .container .row .img a:hover img{
+    filter : brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+    
+}
+
+
+
+/* end project area */
+
+
+
 
 
 /* start section-4 */
